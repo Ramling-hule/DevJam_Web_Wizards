@@ -1,0 +1,106 @@
+body {
+    background-image: url("image1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    /* background: #f3f3f3; */
+    flex-direction: row;
+    margin: 0; 
+}
+
+.loginPage {
+    height: 400px;
+    /* background-color: #d19f21;  */
+    /* background-image: url("image4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    border-radius: 15px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+    padding: 10px 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column; */
+    transition: transform 0.2s;
+    width: 30%;
+    text-align: center;
+}
+
+h3 {
+    color: #c96c0e;
+    /* background-color: #e7ae1e; */
+
+}
+
+h1 {
+    color: #cd8416;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: none;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #da9019d0;
+    width: 15%;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newUser {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+.photo {
+    height: 100px;
+    width :100px;
+    background-image: url("image6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: start;
+}

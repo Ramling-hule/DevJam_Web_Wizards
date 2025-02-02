@@ -1,0 +1,269 @@
+body {
+    /* font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; */
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #f4f4f4; */
+  }
+  header {
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: #f7a918;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+
+  #Home {
+    background-image: url('home.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+
+  .nav-bar {
+    color:black;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    height: 25px;
+    width:15%; 
+    /* background-color: #e05515; */
+  }
+
+  .edu {
+
+    height:50px; 
+  }
+
+  #education {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+
+  
+  
+  .main-banner {
+    /* background-color: #f8c476; */
+    height: 500px;
+    width: 100%;
+    background-image: url('edulogo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(176, 125, 6);
+    text-align: center;
+    padding: 5em 1em;
+  }
+  .main-banner h1 {
+    font-size: 3em;
+  }
+  .main-banner p {
+    font-size: 1.5em;
+  }
+  .fund-cta {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c3740d;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  section {
+    background-color: rgb(250, 248, 245);
+    padding: 2em;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 2em;
+    
+  }
+  .card {
+    height : 400px;
+    background-color: rgb(240, 214, 159);
+    padding: 1em;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.317);
+    border-radius: 20px;
+  }
+  .card img {
+    width: 100%;
+  }
+
+  .images {
+    height: 300px;
+    width : 100%;
+  }
+
+  #image-fundraising {
+    background-image: url('fundraising.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #image-donation {
+    background-image: url('donation.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #image-share {
+    background-image: url('share.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #image-government {
+    background-image: url('government.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #image-company {
+    background-image: url('company.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #image-crowd {
+    background-image: url('crowd.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #map {
+    background-image: url('indiaMap.jpg');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #crowd-title {
+    color: rgb(255, 77, 0);
+    font-weight: 1000;
+  }
+
+  #info {
+    /* font-family: */
+    font-size:larger;
+    /* font-weight: 1000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+  }
+
+
+
+  .crowd {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 490px;
+    width: 30%;
+    flex-wrap: wrap;
+  }
+
+  #crowd-funding {
+    background-color: #ebb671;
+    height : 500px;
+    width : 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 30px;
+    /* flex-wrap: wrap; */
+
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 2em; */
+  }
+
+  .headings {
+    height: 50px;
+    width: 80%;
+    background-color: #e05515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+    word-wrap: wrap;
+    cursor: pointer;
+  }
+
+  .card h3 {
+    font-size: 1.5em;
+    margin: 1em 0;
+  }
+  .card p {
+    font-size: 1em;
+    color: #666;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  .footer-links {
+    margin: 1em 0;
+  }
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+
+  #form-container {
+    display: none; /* Initially hide the form */
+    margin-top: 20px;
+  }
