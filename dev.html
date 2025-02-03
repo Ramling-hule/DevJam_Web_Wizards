@@ -10,17 +10,22 @@
 <body>
   <header>
     <div class="nav-bar" id="EduFund">
-      <div class="edu"><h1>EduFund</h1></div>
-      <div class="edu"><p>Empowering Educational Initiatives</p></div>
+      <div class="edu">
+        <div><h1>EduFund</h1></div>
+        <div><p>Empowering Educational Initiatives</p></div>
+      </div>
     </div>
     <div class="nav-bar" id="Home">
-      Home
+      <div id="home-icon"></div>
+      <div>Home</div>
     </div>
-    <div class="nav-bar" id="How It Works">
-      How It Works..?
+    <div class="nav-bar" id="How">
+      <div id="work-icon"></div>
+      <div>How it Works..?</div>
     </div>
     <div class="nav-bar" id="FAQ">
-      FAQ's
+      <div id="FAQ-icon"></div>
+      <div>FAQ's</div>
     </div>
   </header>
   
@@ -43,31 +48,31 @@
         <div class="headings"><h3>Donate to Projects</h3></div>
         <p>Choose a campaign to support and make a donation to impact education.</p>
       </div>
-      <div class='card'>
+      <div class='card' id="share-box">
         <div class="images" id = "image-share"></div>
-        <div class="headings" id="share-div"><h3>Share the Vision</h3></div>
+        <div class="headings" id="share-div" onclick="openModal1()"><h3>Share the Vision</h3></div>
         <p>Spread the word about these initiatives and encourage others to contribute.</p>
       </div>
       <div class='card'>
         <div class="images" id = "image-government"></div>
         <div class="headings"><h3>From Government</h3></div>
-        <p>Spread the word about these initiatives and encourage others to contribute.</p>
+        <p>Raise a Fund from a government!</p>
       </div>
       <div class='card'>
         <div class="images" id = "image-company"></div>
         <div class="headings"><h3>Private Company</h3></div>
-        <p>Spread the word about these initiatives and encourage others to contribute.</p>
+        <p>Raise a Fund from a Private Company!</p>
       </div>
       <div class='card'>
         <div class="images" id = "image-crowd"></div>
         <div class="headings" id="crowd-div"><h3>Crowd Funding</h3></div>
-        <p>Spread the word about these initiatives and encourage others to contribute.</p>
+        <p>Crowd can help you!</p>
       </div>
     </div>
   </section>
-  <div id="form-container">
-    <iframe src="https://docs.google.com/forms/d/1o1JIsyXIPrYUqgThu0rAmaZTPTPHHrat-MogyOVo2G4/edit" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </div>
+  <!-- <div id="share-container">
+    <iframe src="https://docs.google.com/forms/d/1o1JIsyXIPrYUqgThu0rAmaZTPTPHHrat-MogyOVo2G4/viewform?embedded=true" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div> -->
   <div id="crowd-funding">
     <div class="crowd" id="info">
       <div id="crowd-title">
@@ -84,6 +89,27 @@
     </div>
     <div class="crowd" id="map"></div>
   </div>
+  <div class="feature">
+    <div id="chat" onclick="openModal2()">
+      Message For Help!
+    </div>
+    <div id="pay">
+      Fund Payment
+    </div>
+  </div>
+  <!-- <div id="chat-container">
+    <iframe src="https://docs.google.com/forms/d/1a74CA33-yj6RqagVmpyPCauTaL94ul15XPu_axiPEQg/viewform?embedded=true" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div> -->
+
+  <div id="formModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span> <!-- Close button -->
+        
+        <!-- Google Form iframe -->
+        <iframe id="googleForm" src="https://docs.google.com/forms/d/1o1JIsyXIPrYUqgThu0rAmaZTPTPHHrat-MogyOVo2G4/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" style="border:none;">Loading…</iframe>
+    </div>
+  </div>
+
   <footer>
     <div class='footer-links'>
       <a href='#about'>About</a>
